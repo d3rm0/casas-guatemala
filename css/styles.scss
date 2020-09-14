@@ -1,0 +1,85 @@
+$blue: #165df5;
+$red: #ff0606;
+$green: #ff00c8;
+
+@mixin margenes($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron{
+    color: black;
+    background-color:$blue;
+    text-align: center;
+    text-transform: uppercase;
+    @include margenes(50px, 10px);
+    -webkit-text-stroke: 1px black;
+
+}
+
+.borde{
+    color: white;
+    background-color: $blue;
+    border: #ffffff 1px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-casa{
+    flex: 1 200px;
+    text-align: justify;
+}
+
+.card-tarjeta{
+    flex: 1 200px;
+    text-align: justify;
+}
+
+.card-comentario{
+    flex: 1 200px;
+    text-align: justify;
+}
+
+.btn {
+    background-color: $green;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #1a45a0;
+    color: white;
+}
+
+.btn-reserva{
+    width: 40%;
+}
+
+.btn-reserva2{
+    width: 40%;
+    background-color: $red;
+}
+
+.centrar{
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer{
+    background-color: #165df5;
+    color: white;
+    padding-top: 1rem;
+}
+.blanco{
+    color: white;
+}
+
+.footer-add-icon{
+    color: black;
+    padding-right: 4px;
+}
+
+.carousel-inner {
+    width: 1000px; 
+    height: 500px; 
+   }
