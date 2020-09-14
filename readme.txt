@@ -1,1 +1,3 @@
-Hola esta es la guia de inicio para el respositorio casas-guatemala
+# Casas en venta de Guatemala
+
+Proyecto creado para la practica de Bootstrap 4
